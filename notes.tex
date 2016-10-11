@@ -340,6 +340,53 @@
             \item Delete-min: O(log n) time amertized
         \end{itemize}
     \end{note}
+    \vfill
+
+    \heading{Binary Search Tree}
+    \begin{note}{}
+        A BST on a set S of n integers is a binary tree T satisfying all the following requirements:
+        \begin{itemize}[nolistsep]
+            \item T has n nodes.
+            \item Each node u in T stores a distinct integer in S, which is called the key of u.
+            \item For every internal u, it holds that:
+                \begin{itemize}[nolistsep]
+                    \item The key of u is larger than all the keys in the left subtree of u.
+                    \item The key of u is smaller than all the keys in the right subtree of u.
+                \end{itemize}
+        \end{itemize}
+        \includegraphics[width=\linewidth]{BST}
+    \end{note}
+    \vfill
+    \begin{note}{Balanced Binary Tree}
+        A binary tree T is balanced if the following holds on every internal node u of T:
+        \begin{itemize}[nolistsep]
+            \item The height of the left subtree of u differs from that of the right subtree of u by at most 1.
+        \end{itemize}
+        If u violates the above requirement, we say that u is imbalanced.
+        \includegraphics[width=\linewidth]{balanced}
+    \end{note}
+    \vfill
+    \begin{note}{Binary Tree Height}
+        Given the height h, then the number of nodes must equal $\Omega(2^{h/2})$
+    \end{note}
+    \vfill
+    \begin{note}{Predecessor Query}
+        \begin{enumerate}[nolistsep]
+            \item Set $p\rightarrow -\infty$ (p will contain the final answer at the end)
+            \item Set $u\rightarrow$ the root of T
+            \item If u = nil, then return p
+            \item If key of u = q, then set p to q, and return p
+            \item If key of u > q, then set u to the left child (now u = nil if there is no left child), and repeat from Line 3.
+            \item Otherwise, set p to the key of u, u to the rihgt child, and repeat from Line 3.
+        \end{enumerate}
+        \subheading{Time Analysis}
+        Since time at each node is O(1), and the height is O(log n). The total time is O(log n)
+    \end{note}
+    \vfill
+    \begin{note}{Finding a Successor}
+        Given an integer q, a success query returns the successor of q in S.\\
+        By symmetry, we know that a predecessor query can be answered using a balanced BST in O(log n) time, where $n=\mid S\mid$.
+    \end{note}
 
 \end{multicols}
 
