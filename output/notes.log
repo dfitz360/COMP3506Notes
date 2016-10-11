@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.22)  10 OCT 2016 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  11 OCT 2016 11:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -812,39 +812,116 @@ Package: ncolor
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-) (output/notes.aux)
+)
+(/home/sanchez/Documents/LaTeX/lib/math.sty
+Package: math 
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip145
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen258
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen259
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count161
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count162
+\leftroot@=\count163
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count164
+\DOTSCASE@=\count165
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box84
+\strutbox@=\box85
+\big@size=\dimen260
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count166
+\c@MaxMatrixCols=\count167
+\dotsspace@=\muskip16
+\c@parentequation=\count168
+\dspbrk@lvl=\count169
+\tag@help=\toks32
+\row@=\count170
+\column@=\count171
+\maxfields@=\count172
+\andhelp@=\toks33
+\eqnshift@=\dimen261
+\alignsep@=\dimen262
+\tagshift@=\dimen263
+\tagwidth@=\dimen264
+\totwidth@=\dimen265
+\lineht@=\dimen266
+\@envbody=\toks34
+\multlinegap=\skip146
+\multlinetaggap=\skip147
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+(output/notes.aux)
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 13.
-(/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 14.
+ (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
-ut line 13.
+ut line 14.
+
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
 File: T1SourceSansPro-LF.fd 2015/01/11 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 13.
+(Font)              scaled to size 10.0pt on input line 14.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -880,24 +957,26 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 13.
-\AtBeginShipoutBox=\box84
+LaTeX Info: Redefining \selectfont on input line 14.
+\AtBeginShipoutBox=\box86
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count161
-\scratchdimen=\dimen258
-\scratchbox=\box85
-\nofMPsegments=\count162
-\nofMParguments=\count163
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count164
-\MPscratchDim=\dimen259
-\MPnumerator=\count165
-\makeMPintoPDFobject=\count166
-\everyMPtoPDFconversion=\toks32
-) ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/late
-x/oberdiek/epstopdf-base.sty
+\scratchcounter=\count173
+\scratchdimen=\dimen267
+\scratchbox=\box87
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen268
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks37
+) ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
@@ -905,144 +984,94 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
+
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 20.
+(Font)              scaled to size 14.4pt on input line 21.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              scaled to size 14.4pt on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
- []
-
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 23.
+ mdframed uses option nobreak mdframed on input line 24.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 28.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-[] []\T1/SourceSansPro-LF/m/n/10 32 reg-is-ters of width $\OML/cmm/m/it/10 w$ \
-T1/SourceSansPro-LF/m/n/10 bits.
+Overfull \hbox (114.03432pt too wide) in paragraph at lines 26--32
+\T1/SourceSansPro-LF/m/n/10 32 reg-is-ters of width $\OML/cmm/m/it/10 w$ \T1/So
+urceSansPro-LF/m/n/10 bits.  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-\T1/SourceSansPro-LF/m/n/10 Set value to reg-is-ter (con-stant or from
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+\T1/SourceSansPro-LF/m/n/10 Set value to reg-is-ter (con-stant or from other re
+g-is-ter). Take
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-\T1/SourceSansPro-LF/m/n/10 other reg-is-ter). Take two in-te-gers from
+Underfull \hbox (badness 6157) in paragraph at lines 26--32
+\T1/SourceSansPro-LF/m/n/10 two in-te-gers from other reg-is-ters and store the
+ re-sult of; $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 b$\T1/Sourc
+eSansPro-LF/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-\T1/SourceSansPro-LF/m/n/10 other reg-is-ters and store the re-sult of;
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 b$\T1/SourceSansPro-LF
+/m/n/10 , $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 b$\T1/Sourc
+eSansPro-LF/m/n/10 , $\OML/cmm/m/it/10 a=b$\T1/SourceSansPro-LF/m/n/10 . Take t
+wo reg-is-ters and com-pare them;
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 25--31
-\T1/SourceSansPro-LF/m/n/10 and com-pare them; $\OML/cmm/m/it/10 a < b$ $a \OT1
-/cmr/m/n/10 = \OML/cmm/m/it/10 b$\T1/SourceSansPro-LF/m/n/10 ,
+Underfull \hbox (badness 6396) in paragraph at lines 26--32
+\OML/cmm/m/it/10 a < b$ $a \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 b$\T1/SourceSansP
+ro-LF/m/n/10 , $\OML/cmm/m/it/10 a > b$\T1/SourceSansPro-LF/m/n/10 . Read and w
+rite from mem-ory.
  []
 
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 32.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 38.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 42.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 46.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
+Underfull \hbox (badness 10000) in paragraph at lines 48--61
 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 31.
+ mdframed uses option nobreak mdframed on input line 61.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 37.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 41.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 45.
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--60
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 60.
-
-Underfull \hbox (badness 5475) in paragraph at lines 64--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--72
 [][] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 c$ \T1/SourceSansPro-LF/m/n/10 for s
 ome con-stant $\OML/cmm/m/it/10 c$
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--71
-
- []
-
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 73.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
+ mdframed uses option nobreak mdframed on input line 72.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 75.
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
+ mdframed uses option nobreak mdframed on input line 76.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 79.
-
-Underfull \hbox (badness 7256) in paragraph at lines 82--85
-[] []\T1/SourceSansPro-LF/m/n/10 Di-vide the ar-ray into two parts, sort the
- []
-
-
-Underfull \hbox (badness 6332) in paragraph at lines 82--85
-\T1/SourceSansPro-LF/m/n/10 in-di-vid-ual ar-rays then com-bine the ar-rays
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--85
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 85.
+ mdframed uses option nobreak mdframed on input line 80.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 87.
+(Font)              scaled to size 10.0pt on input line 82.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 20.39996pt.
@@ -1053,91 +1082,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 87--94
-\T1/SourceSansPro-LF/m/n/10 = 0 con-tinue, oth-er-wise ap-pend x to A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--94
-
- []
-
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 94.
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
+ mdframed uses option nobreak mdframed on input line 86.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 100.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
-
- []
-
+ mdframed uses option nobreak mdframed on input line 95.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 104.
-
-Underfull \hbox (badness 6380) in paragraph at lines 106--108
-[] []\T1/SourceSansPro-LF/m/n/10 The queue has two op-er-a-tions; En-queue
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-\T1/SourceSansPro-LF/m/n/10 (In-serts a new el-e-ment into the queue),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
+ mdframed uses option nobreak mdframed on input line 101.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 108.
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
-
- []
-
+ mdframed uses option nobreak mdframed on input line 105.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 115.
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
-
- []
-
+ mdframed uses option nobreak mdframed on input line 109.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 120.
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
-
- []
-
+ mdframed uses option nobreak mdframed on input line 116.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 126.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
-
- []
-
+ mdframed uses option nobreak mdframed on input line 121.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 130.
+ mdframed uses option nobreak mdframed on input line 127.
 
-Underfull \hbox (badness 6380) in paragraph at lines 132--134
-\OML/cmm/m/it/10 h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )$\T1/Sour
-ceSansPro-LF/m/n/10 , Look for $\OML/cmm/m/it/10 v$ \T1/SourceSansPro-LF/m/n/10
- in $\OML/cmm/m/it/10 L[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )$\
-T1/SourceSansPro-LF/m/n/10 . Query time:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 134.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 20.39996pt.
@@ -1145,447 +1106,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 8019) in paragraph at lines 136--138
-[] []\T1/SourceSansPro-LF/m/n/10 Pick a prime $\OML/cmm/m/it/10 p$\T1/SourceSan
-sPro-LF/m/n/10 ; $\OML/cmm/m/it/10 p \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/10 m$\T
-1/SourceSansPro-LF/m/n/10 , $\OML/cmm/m/it/10 p \OMS/cmsy/m/n/10 ^^U$ \T1/Sourc
-eSansPro-LF/m/n/10 any
- []
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 131.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 135.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 139.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 143.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 147.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-\T1/SourceSansPro-LF/m/n/10 in-te-ger $\OML/cmm/m/it/10 k$\T1/SourceSansPro-LF/
-m/n/10 . Choose $\OML/cmm/m/it/10 $ \T1/SourceSansPro-LF/m/n/10 and $\OML/cmm/
-m/it/10 ^^L$ \T1/SourceSansPro-LF/m/n/10 uni-formly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-\T1/SourceSansPro-LF/m/n/10 ran-dom from $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [
-] ; p \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1$\T1/SourceSansPro-LF/m/n/10 . Ther
-e-fore:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 138.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
-
- []
-
+ mdframed uses option nobreak mdframed on input line 156.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 142.
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 146.
-! Undefined control sequence.
-l.152 ...dot c_1$ on the RHS, where $x \in \mathbb
-                                                  {Z}$, such that an express...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \leqslant 
-                          
-l.152 ...xpression that contains $n$ is $\leqslant
-                                                   x \cdot c_1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154         If $f_1(n) + f_2(n) \leqslant
-                                            c_1 \cdot g_1(n) +c'_1 \cdot g_2...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154 ...\cdot g_1(n) +c'_1 \cdot g_2(n) \leqslant
-                                                   max\{c_1 , c'_1 \} \cdot ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154 ... (g_1(n) + g_2(n))$, for all $n \geqslant
-                                                   max\{c_2, c'_2\}$.\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 155.
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 161.
-
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165         \begin{align*}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.166             f(1) &
-                         \leqslant c_1\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.166             f(1) & \leqslant
-                                   c_1\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.166             f(1) & \leqslant c_
-                                     1\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced alignment tab character &.
-l.167             f(n) &
-                         \leqslant \alpha \cdot f(\lceil n / \beta \rceil) +...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.167             f(n) & \leqslant
-                                   \alpha \cdot f(\lceil n / \beta \rceil) +...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.167 ...\cdot n^{\gamma} \text{ for } n \geqslant
-                                                   2
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{minipage} on input line 167 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168         \end{align*}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+ mdframed uses option nobreak mdframed on input line 162.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 169.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 169.
 LaTeX Font Info:    Try loading font information for OMS+SourceSansPro-LF on in
-put line 171.
-LaTeX Font Info:    No file OMSSourceSansPro-LF.fd. on input line 171.
+put line 172.
+LaTeX Font Info:    No file OMSSourceSansPro-LF.fd. on input line 172.
 
 LaTeX Font Warning: Font shape `OMS/SourceSansPro-LF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 171.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{note}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.175     \end{note}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-\endminipage ...pagefalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.175     \end{note}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.175     \end{note}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \begin{minipage} on input line 163 ended by \end{text}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{note}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.175     \end{note}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\endmdf@lrbox ->\color@endgroup \egroup 
-                                        
-l.175     \end{note}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Package mdframed Warning: The environment is empty
-(mdframed)                 on input line 175.
-
-
-! LaTeX Error: \begin{mdframed} on input line 163 ended by \end{notebox}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{note}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.175     \end{note}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\endminipage ...pagefalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.175     \end{note}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{notebox} on input line 163 ended by \end{minipage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{note}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{minipage} on input line 163 ended by \end{note}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{note}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.180         $$O(1) \leqslant
-                               O(log(n)) \leqslant O(n^c)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.180         $$O(1) \leqslant O(log(n)) \leqslant
-                                                   O(n^c)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.181         $$\leqslant
-                          O(n) \leqslant O(n^2)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.181         $$\leqslant O(n) \leqslant
-                                         O(n^2)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.182         $$\leqslant
-                          O(n^c) \leqslant O(c^n)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.182         $$\leqslant O(n^c) \leqslant
-                                           O(c^n)$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
+(Font)              for symbol `textbullet' on input line 172.
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 183.
-
-! LaTeX Error: \begin{minipage} on input line 163 ended by \end{multicols}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 \end{multicols}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.186 \end{multicols}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \begin{note} on input line 163 ended by \end{multicols}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 \end{multicols}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+ mdframed uses option nobreak mdframed on input line 176.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 20.39996pt.
@@ -1593,66 +1146,97 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
-! LaTeX Error: \begin{multicols} on input line 18 ended by \end{landscape}.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188 \end{landscape}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 184.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 199.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 207.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 211.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 215.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 226.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 20.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 228--232
+
+ []
+
+<ancestor.png, id=30, 239.89626pt x 241.90375pt>
+File: ancestor.png Graphic file (type png)
+ <use ancestor.png>
+Package pdftex.def Info: ancestor.png used on input line 232.
+(pdftex.def)             Requested size: 148.7898pt x 150.03783pt.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 237.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 241.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 245.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 249.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 252.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 261.
+
+Overfull \vbox (36.08073pt too high) has occurred while \output is active []
 
 
-! LaTeX Error: \begin{landscape} on input line 14 ended by \end{document}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 20.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-(output/notes.aux)
+[5 <./ancestor.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 20.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6] (output/notes.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 14 (\begingroup)
-### semi simple group (level 1) entered at line 14 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 21689 strings out of 493029
- 429856 string characters out of 6136234
- 481393 words of memory out of 5000000
- 24878 multiletter control sequences out of 15000+600000
- 63639 words of font info for 28 fonts, out of 8000000 for 9000
+ 22621 strings out of 493029
+ 440760 string characters out of 6136234
+ 505690 words of memory out of 5000000
+ 25770 multiletter control sequences out of 15000+600000
+ 84722 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,14n,82p,10418b,1264s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_
-ggs4wk.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/Sourc
-eSansPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspr
-o/SourceSansPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on output/notes.pdf (3 pages, 193649 bytes).
+ 80i,13n,82p,10418b,1233s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}</u
+sr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPr
+o-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msam10.pfb>
+Output written on output/notes.pdf (6 pages, 219585 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
