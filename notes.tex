@@ -387,6 +387,87 @@
         Given an integer q, a success query returns the successor of q in S.\\
         By symmetry, we know that a predecessor query can be answered using a balanced BST in O(log n) time, where $n=\mid S\mid$.
     \end{note}
+    \vfill
+
+    \heading{AVL-Tree}
+    \begin{note}{}
+        An AVL-tree on a set S of n integers is a balanced binary search tree T where the following holds on every internal node u
+        \begin{itemize}
+            \item u stores the heights of its left and right subtrees.
+        \end{itemize}
+        An AVL-tree on $S=\{3,10,15,20,30,40,60,73,80\}$\\
+        \includegraphics[width=\linewidth]{avl}
+        For example, the numbers 3 and 2 near node 40 indicate that its left subtree has height 3, and its right subtree has height 2.
+    \end{note}
+    \vfill
+    \begin{note}{2-Level Imbalance}
+        \includegraphics[width=\linewidth]{2level}
+    \end{note}
+    \vfill
+    \begin{note}{Rebalancing Left-Left}
+        By a rotation:\\
+        \includegraphics[width=\linewidth]{leftleft}
+        Only 3 pointers to change (the red ones). The cost is O(1). Recall x = h or h + 1.
+    \end{note}
+    \vfill
+    \begin{note}{Rebalancing Left-Right}
+        By a double rotation:\\
+        \includegraphics[width=\linewidth]{leftright}
+        Only 5 pointers to change (see above). Hence, the cost is O(1). Note that x and y must be h or h-1. Furthermore, at least one of them must be h.
+    \end{note}
+    \vfill
+    \begin{note}{Insertion}
+        Suppose that we need to insert a new integer e. First create a new leaf z storing the key e. This can be done by descending a root-to-leaf path:
+        \begin{enumerate}[nolistsep]
+            \item Set $u\rightarrow$ the root of T
+            \item If $e<$ the key of u
+                \begin{enumerate}[nolistsep]
+                    \item If u has a left child, then set u to the left child.
+                    \item Otherwise, make z the left child of u, and done.
+                \end{enumerate}
+            \item Otherwise:
+                \begin{enumerate}[nolistsep]
+                    \item If u has a right child, then set u to the right child
+                    \item Otherwise, make z the right child of u, and done.
+                \end{enumerate}
+            \item Repeat from Line 2.
+        \end{enumerate}
+        Finally, update the subtree height values on the nodes of the root-to-z path in bottom-up order. The total cost is proportional to the height of T, O(log n).
+    \end{note}
+    \vfill
+    \begin{note}{Deletion}
+        Suppose that we want to delete an integer e. First find the node u whose key equals e in O(log n) time.\\
+        \textbf{Case 1:} If u is a leaf node, simply remove it from T.\\
+        Now suppose that node u (containing the integer e to be deleted) is not a leaf node. We proceed as follows:
+        \begin{itemize}[nolistsep]
+            \item \textbf{Case 2:} If u has a right subtree:
+                \begin{itemize}[nolistsep]
+                    \item Find the node v storing the successor s of e.
+                    \item Set the key of u to s
+                    \item \textbf{Case 2.1:} If v is a leaf node, then remove it from T.
+                    \item \textbf{Case 2.2:} Otherwise, it must hold that v has a right child w, which is a leaf, but not a left child. Se the key of v to that of w, and remove w from T.
+                \end{itemize}
+            \item \textbf{Case 3:} If u has no right subtree:
+                \begin{itemize}[nolistsep]
+                    \item It must hold that u has a left child v, which is a leaf. Set the key of u to that of v, and remove v from T.
+                \end{itemize}
+        \end{itemize}
+    \end{note}
+    \vfill
+    \includegraphics[width=\linewidth]{case21}
+    \vfill
+    \includegraphics[width=\linewidth]{case22}
+    \vfill
+    \includegraphics[width=\linewidth]{case3}
+    \vfill
+    \begin{note}{Time Complexity}
+        \begin{itemize}[nolistsep]
+            \item O(n) space consumption
+            \item O(log n) time per predecessor query (hence, also per dictionary lookup)
+            \item O(log n) time per insertion
+            \item O(log n) time per deletion
+        \end{itemize}
+    \end{note}
 
 \end{multicols}
 
