@@ -168,7 +168,7 @@
             f(n) & \leqslant \alpha \cdot f(\lceil n / \beta \rceil) + c_2 \cdot n^{\gamma} \text{ for } n \geqslant 2
         \end{align*}
         where $\alpha, \beta, \gamma, c_1$ and $c_2$ are positive constants. Then:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item If $log_{b} \alpha < \gamma$ then $f(n) = O(n^\gamma)$
             \item If $log_{b} \alpha = \gamma$ then $f(n) = O(n^\gamma \cdot log(n))$
             \item If $log_{b} \alpha > \gamma$ then $f(n) = O(n^{log_\beta(a)})$
@@ -187,10 +187,10 @@
     \heading{Trees}
     \begin{note}{Undirected Graphs}
         An undirected graph is a pair of (V, E) where:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item V is a set of elements, each of which called a node.
             \item E is a set of pairs (u, v) such that:
-                \begin{itemize}
+                \begin{itemize}[nolistsep]
                     \item u and v are distinct nodes;
                     \item If (u, v) is in E, then (v, u) is also in E -- we say that there is an edge between u and v.
                 \end{itemize}
@@ -200,7 +200,7 @@
     \vfill
     \begin{note}{Paths and Cycles}
         Let G = (V, E) be an undirected graph. A path in G is a sequence of nodes $(v_1, v_2, \ldots, v_k)$ such that
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item For every $i\in [1, k-1]$, there is an edge between $v_i$ and $v_{i+1}$.
         \end{itemize}
         A cycle in G is a path $(v_1, v_2, \ldots, v_k)$ such that; $k\geq 4$, $v_1 = v_k$, $v_1, v_2, \ldots, v_{k-1}$ are distinct
@@ -216,7 +216,7 @@
     \vfill
     \begin{note}{Rooting a Tree}
         Given any tree T and an arbitrary node r, we can allocate a level to each node as follows:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item r is the root of T -- this is level 0 of the tree.
             \item All the nodes that are 1 edge away from r constitute level 1 of the tree.
             \item All the nodes that are 2 edges away from r constitute level 2 of the tree.
@@ -253,7 +253,7 @@
     \vfill
     \begin{note}{Complete Binary Tree}
         A binary tree of height $h$ is complete if:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item Levels 0, 1, \ldots, h-2 are all full
             \item At Level h-1, the leaf nodes are ``as far left as possible''.\\
                 This means that if you were to add a leaf node v at Level h-1, v would need to be on the right of all the existing leaf nodes.
@@ -264,7 +264,7 @@
     \heading{Priority Queue}
     \begin{note}{}
         A priority queue stores a set S of n integers and supports the following operations:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item Insert(e): Adds a new integer to S.
             \item Delete-min: Removes the smallest integer in S, and returns it.
         \end{itemize}
@@ -272,13 +272,50 @@
     \vfill
     \begin{note}{}
         Next we will implement a priority queue using a data structure called the binary heap to achieve the following guarantees:
-        \begin{itemize}
+        \begin{itemize}[nolistsep]
             \item O(n) space consumption
             \item O(log n) insertion time
             \item O(log n) delete-min time
         \end{itemize}
     \end{note}
     \vfill
+
+    \heading{Binary Heap}
+    \begin{note}{}
+        Let S be a set of n integers. A binary heap on S is a binary tree T satisfying:
+        \begin{itemize}[nolistsep]
+            \item T is complete
+            \item Every node u in T corresponds to a distinct integer in S -- the integer is called the key of u (and is stored at u).
+            \item If u is an internal node, the key of u is smaller than those of its child noeds.
+        \end{itemize}
+        Two possible binary heaps on S = \{93, 39, 1, 26, 8, 23, 79, 54\}:
+        \includegraphics[width=\linewidth]{binaryheap}
+        The smallest integer of S must be the key of the root.
+    \end{note}
+    \vfill
+    \begin{note}{Insertion}
+        We preform insert(e) on a binary heap T as follows:
+        \begin{enumerate}[nolistsep]
+            \item Create a leaf node z with key e, while ensuring that T is a complete binary tree -- notice that there is only one place where z can be added.
+            \item Set $u\rightarrow z$.
+            \item If u is the root, return.
+            \item If the key of $u >$ the key of its parent p, return.
+            \item Otherwise, swap the keys of u and p. Set $u\rightarrow p$, and repeat from Step 3.
+        \end{enumerate}
+    \end{note}
+    \vfill
+    \begin{note}{Delete-Min}
+        We perform a delete-min on a binary heap T as follows:
+        \begin{enumerate}[nolistsep]
+            \item Report the key of the root.
+            \item Identify the rightmost leaf z at the bottom level of T.
+            \item Delete z, and store the key of z at the root.
+            \item Set $u\rightarrow$ the root.
+            \item If $u$ is a leaf, return.
+            \item If the key of $u <$ the keys of the children of u, return.
+            \item Otherwise, let v be the child of u with a smaller key. Swap the keys of u and v. Set $u\rightarrow v$, and repeat from Step 5.
+        \end{enumerate}
+    \end{note}
 
 \end{multicols}
 
