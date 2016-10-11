@@ -316,6 +316,30 @@
             \item Otherwise, let v be the child of u with a smaller key. Swap the keys of u and v. Set $u\rightarrow v$, and repeat from Step 5.
         \end{enumerate}
     \end{note}
+    \vfill
+
+    \heading{Dynamic Binary Heaps}
+    \begin{note}{Storing a Complete Binary Tree Using an Array}
+        Let T be any complete binary tree with $n$ nodes. Let us linearize the nodes in the following manner:
+        \begin{itemize}[nolistsep]
+            \item Put nodes at a higher level before those at a lower level.
+            \item Within the same level, order the nodes from left to right.
+        \end{itemize}
+        Let us store the linearized sequence of nodes in an array A of length n.
+        \subheading{Property 1}
+        \textbf{Lemma:} Suppose that node u of T is stored at A[i]. Then, the left child of u is stored at A[2i], and the right child at A[2i + 1].\\
+        \textbf{Corollary:} Suppose that node u of T is stored at A[i]. Then, the parent of u is stored at $A[\floor{i/2}]$.\\
+        \subheading{Property 2}
+        \textbf{Lemma:} The rightmost leaf node at the bottom level is stored at $A[n]$.
+    \end{note}
+    \vfill
+    \begin{note}{Performance Guarantees}
+        \begin{itemize}
+            \item Space consumption O(n)
+            \item Insertion: O(log n) time amortized
+            \item Delete-min: O(log n) time amertized
+        \end{itemize}
+    \end{note}
 
 \end{multicols}
 
