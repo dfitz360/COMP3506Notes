@@ -1,21 +1,22 @@
 \documentclass{lecture}
 
-\batchmode
+%\batchmode
 
 \usepackage{multicol}
 \setlength{\columnseprule}{0.4pt}
 
 \usepackage{pdflscape}
 
+\usepackage{math}
 \usepackage{ncolor}
-\setprimary{green}
+\setprimary{black}
 
 \begin{document}
 \begin{landscape}
 
 \course{COMP3506}
 
-\begin{multicols}{3}
+\begin{multicols}{2}
 
     \heading{RAM Model}
     \begin{note}{Memory}
@@ -149,9 +150,9 @@
     \heading{Week 3 -- Extra}
     \begin{note}{}
         When using `Direction 1: Constant Finding' setting $c_1$, always set it to match the coefficent on the LHS so that you can cancel.\\
-        When trying to get a contradiction, try and isolate an $x \cdot c_1$ on the RHS, where $x \in \mathbb{Z}$, such that an expression that contains $n$ is $\leqslant x \cdot c_1$\\
+        When trying to get a contradiction, try and isolate an $x \cdot c_1$ on the RHS, where $x \in Z$, such that an expression that contains $n$ is $\leq x \cdot c_1$\\
         Make judicious use of the $max$ function when adding functions together
-        If $f_1(n) + f_2(n) \leqslant c_1 \cdot g_1(n) +c'_1 \cdot g_2(n) \leqslant max\{c_1 , c'_1 \} \cdot (g_1(n) + g_2(n))$, for all $n \geqslant max\{c_2, c'_2\}$.\\
+        If $f_1(n) + f_2(n) \leq c_1 \cdot g_1(n) +c'_1 \cdot g_2(n) \leqslant max\{c_1 , c'_1 \} \cdot (g_1(n) + g_2(n))$, for all $n \geqslant max\{c_2, c'_2\}$.\\
     \end{note}
     \vfill
 
@@ -182,6 +183,82 @@
         $$\leqslant O(n^c) \leqslant O(c^n)$$
     \end{note}
     \vfill
+
+    \heading{Trees}
+    \begin{note}{Undirected Graphs}
+        An undirected graph is a pair of (V, E) where:
+        \begin{itemize}
+            \item V is a set of elements, each of which called a node.
+            \item E is a set of pairs (u, v) such that:
+                \begin{itemize}
+                    \item u and v are distinct nodes;
+                    \item If (u, v) is in E, then (v, u) is also in E -- we say that there is an edge between u and v.
+                \end{itemize}
+        \end{itemize}
+        A node may also be called a vertex. We will refer to V as the vertex set or the node set of the graph, and E the edge set.
+    \end{note}
+    \vfill
+    \begin{note}{Paths and Cycles}
+        Let G = (V, E) be an undirected graph. A path in G is a sequence of nodes $(v_1, v_2, \ldots, v_k)$ such that
+        \begin{itemize}
+            \item For every $i\in [1, k-1]$, there is an edge between $v_i$ and $v_{i+1}$.
+        \end{itemize}
+        A cycle in G is a path $(v_1, v_2, \ldots, v_k)$ such that; $k\geq 4$, $v_1 = v_k$, $v_1, v_2, \ldots, v_{k-1}$ are distinct
+    \end{note}
+    \vfill
+    \begin{note}{Connected Graphs}
+        An undirected graph G = (V, E) is connected if, for any two distinct vertices u and v, G has a path from u to v.
+    \end{note}
+    \vfill
+    \begin{note}{Trees}
+        A tree is a connected undirected graph contains no cycles.
+    \end{note}
+    \vfill
+    \begin{note}{Rooting a Tree}
+        Given any tree T and an arbitrary node r, we can allocate a level to each node as follows:
+        \begin{itemize}
+            \item r is the root of T -- this is level 0 of the tree.
+            \item All the nodes that are 1 edge away from r constitute level 1 of the tree.
+            \item All the nodes that are 2 edges away from r constitute level 2 of the tree.
+            \item And so on.
+        \end{itemize}
+        The number of levels is called the height of the tree. We say that T has been rooted once a root has been designated.
+    \end{note}
+    \vfill
+    \begin{note}{Ancestors and Descendants}
+        Let u and v be two nodes in T. u is an ancestor of v is one of the following holds: u = v, u is the parent of v, u is the parent of an ancestor of v.\\
+        Accordingly, we say that v is a descendant of u. In particular, if $u\neq v$, we say that u is a proper ancestor of v, and likewise, v is a proper descendant of u.\\
+        \begin{multicols}{2}
+        \includegraphics[width=\linewidth]{ancestor}
+        Node b is an ancestor of b, a and d.\\
+        Node c is an ancestor of c, b, a and d.\\
+        Node c is a proper ancestor of b, a, d.
+        \end{multicols}
+    \end{note}
+    \vfill
+    \begin{note}{Subtrees}
+        The subtree of u is the part of T that is ``at or below'' u.
+    \end{note}
+    \vfill
+    \begin{note}{Internal and Leaf Nodes}
+        In a rooted tree, a node is a leaf node if it has no children; otherwise, it is an internal node.
+    \end{note}
+    \vfill
+    \begin{note}{k-Ary and Binary}
+        A k-Ary tree is a rooted tree where every internal node has at most k child nodes. A 2-ary tree is called a binary tree.
+    \end{note}
+    \begin{note}{Full Level}
+        Consider a binary tree with height $h$. Its Level $l (0\leq l \leq h-1)$ is full if it contains $2^l$ nodes.
+    \end{note}
+    \vfill
+    \begin{note}{Complete Binary Tree}
+        A binary tree of height $h$ is complete if:
+        \begin{itemize}
+            \item Levels 0, 1, \ldots, h-2 are all full
+            \item At Level h-1, the leaf nodes are ``as far left as possible''.\\
+                This means that if you were to add a leaf node v at Level h-1, v would need to be on the right of all the existing leaf nodes.
+        \end{itemize}
+    \end{note}
 
 \end{multicols}
 
